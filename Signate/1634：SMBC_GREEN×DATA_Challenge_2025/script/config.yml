@@ -1,0 +1,112 @@
+base_path: /Users/iwasakitakahiro/github
+
+target_col: price_actual
+
+random_seed: 1234
+
+numeric_cols:
+- generation_biomass
+# - generation_fossil_brown_coal/lignite
+- generation_fossil_gas
+- generation_fossil_hard_coal
+- generation_fossil_oil
+# - generation_hydro_pumped_storage_consumption
+- generation_hydro_run_of_river_and_poundage
+- generation_hydro_water_reservoir
+- generation_nuclear
+# - generation_other
+- generation_other_renewable
+- generation_solar
+# - generation_waste
+- generation_wind_onshore
+- total_load_actual
+- valencia_temp
+- valencia_pressure
+- valencia_humidity
+- valencia_wind_speed
+- valencia_clouds_all
+- madrid_temp
+- madrid_pressure
+- madrid_humidity
+- madrid_wind_speed
+- madrid_clouds_all
+- bilbao_temp
+- bilbao_pressure
+- bilbao_humidity
+- bilbao_wind_speed
+- bilbao_clouds_all
+- barcelona_temp
+- barcelona_pressure
+- barcelona_humidity
+- barcelona_wind_speed
+- barcelona_clouds_all
+- seville_temp
+- seville_pressure
+- seville_humidity
+- seville_wind_speed
+- seville_clouds_all
+
+category_cols:
+# - valencia_weather_main
+# - madrid_weather_main
+# - bilbao_weather_main
+# - barcelona_weather_main
+# - seville_weather_main
+
+other_cols:
+- valencia_temp_min
+- valencia_temp_max
+- madrid_temp_min
+- madrid_temp_max
+- bilbao_temp_min
+- bilbao_temp_max
+- barcelona_temp_min
+- barcelona_temp_max
+- seville_temp_min
+- seville_temp_max
+- valencia_wind_deg
+- madrid_wind_deg
+- bilbao_wind_deg
+- barcelona_wind_deg
+- seville_wind_deg
+- valencia_weather_id
+- valencia_weather_description
+- valencia_weather_icon
+- madrid_weather_id
+- madrid_weather_description
+- madrid_weather_icon
+- bilbao_weather_id
+- bilbao_weather_description
+- bilbao_weather_icon
+- barcelona_weather_id
+- barcelona_weather_description
+- barcelona_weather_icon
+- seville_weather_id
+- seville_weather_description
+- seville_weather_icon
+- valencia_rain_1h
+- valencia_rain_3h
+- valencia_snow_3h
+- madrid_rain_1h
+- madrid_rain_3h
+- madrid_snow_3h
+- bilbao_rain_1h
+- bilbao_rain_3h
+- bilbao_snow_3h
+- barcelona_rain_1h
+- barcelona_rain_3h
+- barcelona_snow_3h
+- seville_rain_1h
+- seville_rain_3h
+- seville_snow_3h
+
+
+unique_key_cols: time
+
+sus_gene_cols:
+- generation_biomass
+- generation_hydro_run_of_river_and_poundage
+- generation_hydro_water_reservoir
+- generation_other_renewable
+- generation_solar
+- generation_wind_onshore
